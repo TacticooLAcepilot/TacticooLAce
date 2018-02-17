@@ -15,7 +15,7 @@ public class Box : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         rotationX += Time.deltaTime * 100;
-        rotationY += Time.deltaTime * 180;
+        rotationY += Time.deltaTime * 10;
         transform.rotation = Quaternion.Euler(rotationX, rotationY, 0);
 	}
 }
